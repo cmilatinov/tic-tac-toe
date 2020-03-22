@@ -1,10 +1,10 @@
-#include <string>
+﻿#include <string>
 #include <vector>
 #include <functional>
 
 #include "console.h"
 
-#define BOARD_FORMAT		"\n\t %c | %c | %c\n\t-----------\n\t %c | %c | %c\n\t-----------\n\t %c | %c | %c"
+#define BOARD_FORMAT		"\n\t %c \xB3 %c \xB3 %c\n\t\xC4\xC4\xC4\xC5\xC4\xC4\xC4\xC5\xC4\xC4\xC4\n\t %c \xB3 %c \xB3 %c\n\t\xC4\xC4\xC4\xC5\xC4\xC4\xC4\xC5\xC4\xC4\xC4\n\t %c \xB3 %c \xB3 %c"
 #define BOARD_SIZE			9
 #define BOARD_CHAR_P1		'X'
 #define BOARD_CHAR_P2		'O'

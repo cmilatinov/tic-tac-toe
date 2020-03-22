@@ -33,7 +33,7 @@ void Game::DrawBoard() {
 void Game::DrawInput(int status) {
 	this->status = status;
 
-	console->ClearLines(INPUT_START, 17);
+	console->ClearLines(INPUT_START, 16);
 
 	console->SetCursorPos(0, INPUT_START);
 	vector<string> strMoves;
